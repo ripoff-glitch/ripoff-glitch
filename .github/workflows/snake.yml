@@ -23,7 +23,9 @@ jobs:
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark&color_snake=#00ffd5&color_dots=#161b22,#2a0066,#4b00b3,#6e00ff,#00ffd5
 
-      - run: python3 scripts/activity.py ${{ github.repository_owner }} dist/activity.svg
+      - run: |
+          python3 scripts/activity.py ${{ github.repository_owner }} /tmp/activity.svg
+          sudo cp /tmp/activity.svg dist/activity.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
