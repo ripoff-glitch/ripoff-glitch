@@ -32,7 +32,7 @@ always on. location: 127.0.0.1
 ### 🧬 activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ripoff-glitch&bg_color=0d1117&color=00ffd5&line=6e00ff&point=ffffff&area=true&area_color=6e00ff&hide_border=true" width="100%" />
+  <img src="https://raw.githubusercontent.com/ripoff-glitch/ripoff-glitch/output/activity.svg" width="100%" />
 </p>
 
 <p align="center">
